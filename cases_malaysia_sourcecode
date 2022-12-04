@@ -1,5 +1,10 @@
+#load cases_malaysia CSV file using Pandas
+#use head function to view the first 5 dataset values
 import pandas as pd
 df = pd.read_csv(r'C:\Users\Acer\Desktop\group_project302\cases_malaysia.csv')
+
+#select columns called 'date' and 'cases_new'
+#drop certain rows based on date column with row value less than 2022-08-01. Value needed is from 2022-08-01 until 2022-11-30
 df= df[['date', 'cases_new']]
 df= df.drop(df[df['date']<'2022-08-01'].index)
 df =df.drop(df[df['date']>'2022-11-30'].index)

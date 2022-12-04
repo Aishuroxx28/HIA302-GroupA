@@ -29,11 +29,11 @@ Source of data github - MOH Malaysia https://github.com/MoH-Malaysia/covid19-pub
 
 Data Collection ; Source - GitHub KKM, endemic Based on each specific objective;
 
-Cases_malaysia.csv (cases_new)
+1. Cases_malaysia.csv (cases_new) dataset
 
-Combine 2 datasets : Hosp.csv (admitted_x ) / cases_malaysia.csv (cases_new)
+2. Combine 2 datasets : Hosp.csv (admitted_x ) / cases_malaysia.csv (cases_new)
 
-Combine 2 datasets : icu.csv (icu_x) / cases_malaysia.csv (cases_new)
+3. Combine 2 datasets : icu.csv (icu_x) / cases_malaysia.csv (cases_new)
 
 Source of data • github - MOH Malaysia https://github.com/MoH-Malaysia/covid19-public
 
@@ -48,10 +48,10 @@ d) Specific Objective 4: cases_state.csv
 
 Data cleaning = 4 months (1st Aug until 30th Nov ) using Python
 
-cases_state = Choylee
+a)cases_state = Choylee
 
-cases_malaysia = Aishu
+b)cases_malaysia = Aishu
 
-hospital.csv = Dr Lian
+c)hospital.csv = Dr Lian
 
-icu.csv = Dr Dura
+d)icu.csv = Dr Dura

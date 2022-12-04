@@ -50,7 +50,7 @@ Data cleaning = 4 months (1st Aug until 30th Nov ) using Python
 
 a)cases_state = Choylee
 
-b)cases_malaysia = Aishu
+b)cases_malaysia = Aiswarya
 
 c)hospital.csv = Dr Lian
 
